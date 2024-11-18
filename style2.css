@@ -1,0 +1,85 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    color:black;
+    background-color: hsl(180, 100%, 94%);
+    display:flex;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    height: 180vh;
+}
+
+form{
+    width: 90%;
+    max-width: 500px;
+    background-color:rgb(255, 196, 196) ;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+}
+
+h1{text-align: center;
+    color: #333;
+    width: 100%;
+    }
+
+    fieldset{
+        border-style: solid;
+        margin-bottom: 15px;
+        display: flex;
+        justify-content: flex-start;
+        gap: 15px;
+        flex-wrap: wrap;
+
+    }
+
+legend{
+    font-weight: bold;
+    font-size: 1.2em;
+    margin-bottom: 5px;
+
+}
+
+label{
+    display: block;
+    margin: 8px 0 4px;
+}
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="date"],
+input[type="number"],
+select, textarea, h1 {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1em;
+}
+
+input[type="radio"] {
+    margin-right: 5px;
+}
+
+button{
+    width: 100%;
+    padding: 10px;
+    background-color: aquamarine;
+    color: black;
+    border: none;
+    border-radius: 4px;
+    font-size: 1em;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: rgb(255, 218, 236);
+}
+
+@media(max-width: 600px){
+    form{
+        padding: 15px;
+    }
+}

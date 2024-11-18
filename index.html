@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>FORMULARIO</title>
+        <link rel="stylesheet" type="text/css" href="CSS/style2.css">
+    </head>
+    <body>
+        <form>
+            <fieldset>
+                <h1>Informacion Personal</h1>
+        
+                <label for="nombre"> Name:</label>
+                <input type="text" id="nombre" name="nombre" required>
+                
+                <label for="apellido"> Last Name:</label>
+                <input type="text" id="apellido" name="apellido"  required>
+                <br>
+
+                <label for="e-mail"> E-Mail:</label>
+                <input type="text" id="e-mail" name="e-mail"  required>
+
+                <label for="fecha_nacimiento"> Date:</label>
+                <input type="date" id="fecha_nacimiento" name="fecha_nacimiento"  required>
+                <br>
+
+                <label for="numero-celular"> Phone Number:</label>
+                <input type="number" id="numero-celular" name="numero-celular"  required>
+                
+            </fieldset>
+
+            <fieldset>
+                <label for="usuario"> User Name:</label>
+                <input type="text" id="usuario" name="usuario"  required>
+
+                <label for="password"> Password:</label>
+                <input type="password" id="password" name="password"  required>
+            </fieldset>
+
+            <fieldset>
+                <legend><b>Otra Informacion</b></legend>
+                <label>Genero:</label>
+                <br>
+                <label>
+                    <input type="radio" name="opcion" value="Female">
+                    Female
+                  </label>
+                <label>
+                    <input type="radio" name="opcion" value="Male">
+                    Male
+                </label>
+                <br>
+
+                <label for="hijos"> Children:</label>
+                <br>
+                  
+                <label>
+                    <input type="radio" name="opcion" value="No">
+                    No
+                  </label>
+                  <br>
+
+                  <label>
+                    <input type="radio" name="opcion" value="1">
+                    1
+                  </label>
+                  <br>
+                
+                  <label>
+                    <input type="radio" name="opcion" value="2">
+                    2
+                  </label>
+                  <br>
+
+                  <label>
+                    <input type="radio" name="opcion" value="More">
+                    More
+                  </label>
+                
+            </fieldset>
+
+            <fieldset>
+                <label for="pais">Pais:</label>
+                <select id="pais" name="Pais">
+                    <option value="Colombia">Colombia</option>
+                    <option value="Mexico">Mexico</option>
+                    <option value="EE.UU">EE.UU</option>
+                    <option value="Chile">Chile</option>
+                </select>
+            </fieldset>
+
+            <fieldset>
+                <label for="comentarios"> <b>Leave Your Comments</b></label>
+                <br>
+                <textarea id="comentarios" name="comentarios" rows="4"></textarea>
+            </fieldset>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </body>
+</html>
